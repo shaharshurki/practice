@@ -30,7 +30,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t shaharshurki/practice .
-        docker pushshaharshurki/practice
+        docker push shaharshurki/practice
 
     - name: Deploy to Kubernetes
       run: |

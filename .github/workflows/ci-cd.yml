@@ -34,4 +34,4 @@ jobs:
 
     - name: Deploy to Kubernetes
       run: |
-        helm install devops-release ./devops-project
+        helm install practice-release ./practice

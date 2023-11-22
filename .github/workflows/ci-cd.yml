@@ -38,6 +38,3 @@ jobs:
         docker build -t shaharshurki/practice .
         docker push shaharshurki/practice
 
-    - name: Deploy to Kubernetes
-      run: |
-        helm install practice-release ./practice
